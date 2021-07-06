@@ -1,0 +1,36 @@
+@import '../../scss/setup/variables';
+.screen{
+    background-color: rgba(0, 0, 0, 0.4);
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.message {
+    background-color: $clr1;
+    box-shadow: $subtle-shadow;
+    width: fit-content;
+    max-width:200px;
+    word-wrap: break-word;
+    padding:20px;
+    border-radius: 5px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+    .body{
+        margin-bottom:30px;
+    }
+    button{
+        display:block;
+        margin:auto;
+        &:hover{
+            box-shadow: $subtle-shadow;
+        }
+    }
+}
+

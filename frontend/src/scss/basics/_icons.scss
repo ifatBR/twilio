@@ -1,0 +1,39 @@
+.icon {
+    font-size: rem(20px);
+
+    &.solid {
+        font-family: fa-solid;
+
+        &.site::before {
+            content: "\f35d"
+        }
+
+        &.email::before {
+            content: "\f0e0"
+        }
+
+        &.next::before{
+            content: "\f054";
+        }
+
+        &.prev::before{
+            content: "\f053";
+        }
+
+        &.back::before{
+            content: "\f060";
+        }
+    }
+
+    &.brand {
+        font-family: fa-brand;
+
+        &.github::before {
+            content: "\f09b"
+        }
+
+        &.linkedin::before {
+            content: "\f08c"
+        }
+    }
+}

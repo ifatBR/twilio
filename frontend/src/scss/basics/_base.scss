@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $main-font;
+  letter-spacing: 0.3px;
+}
+
+body {
+  // background-color: $clr7;
+  color: $clr6;
+  margin: 0;
+  font-size: rem(14px);
+  line-height: rem(20px);
+  font-weight: 400;
+}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   text-transform: capitalize;
+//   font-family: $bold-font;
+//   margin: 0;
+//   font-weight: bold;
+//   span{
+//     font-family: $main-font;
+//     font-weight: 400;
+//   }
+// }
+
+// h1{
+//   text-align: center;
+//   font-size: rem(28px);
+//   margin-bottom: rem(30px);
+// }
+
+// h2{
+//   font-size: rem(30px);
+//   margin-bottom:rem(50px);
+//   text-align: center;
+//   color:$clr2;
+
+// }
+
+// h3{
+//   font-size: rem(18px);
+//   margin-bottom: rem(5px);
+//   color:$clr2;
+// }
+
+// h4{
+//   font-size: rem(14px);
+//   margin-bottom: rem(3px);
+//   color:$clr5;
+// }
+
+// h5{
+//   font-size: rem(16px);
+//   margin-bottom: rem(3px);
+//   color:$clr5;
+// }
+
+// p {
+//   margin: 0;
+//   font-size: rem(16px);
+// }
+
+
+// a {
+//   cursor: pointer;
+//   text-decoration: none;
+//   font-size: rem(14px);
+//   color:$clr6;
+// }
+
+// .hide {
+//   display: none;
+// }
